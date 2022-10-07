@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b6228b20.css",
+    "main.js": "/static/js/main.aad3270d.js",
+    "static/js/787.a6230c46.chunk.js": "/static/js/787.a6230c46.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/homeImage.jpg": "/static/media/homeImage.ad3f272207d186892153.jpg",
+    "static/media/agro.jpg": "/static/media/agro.3e0005beb51b1029b444.jpg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/elevage.jpg": "/static/media/elevage.e877eff22df261f2e6d9.jpg",
+    "static/media/construct.jpg": "/static/media/construct.8152111d0098c277dc00.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/cerveau.jpg": "/static/media/cerveau.40ab8202b9f0c43b1f1c.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/transpoert.jpg": "/static/media/transpoert.7a0433362dcac16c8d0f.jpg",
+    "static/media/logo2.JPG": "/static/media/logo2.2b58daea184a7d4d85ba.JPG",
+    "index.html": "/index.html",
+    "main.b6228b20.css.map": "/static/css/main.b6228b20.css.map",
+    "main.aad3270d.js.map": "/static/js/main.aad3270d.js.map",
+    "787.a6230c46.chunk.js.map": "/static/js/787.a6230c46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6228b20.css",
+    "static/js/main.aad3270d.js"
+  ]
+}

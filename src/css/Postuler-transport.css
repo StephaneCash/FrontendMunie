@@ -1,0 +1,209 @@
+.content-postuler {
+    max-width: 100%;
+    min-height: 76vh;
+    height: auto;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    min-height: 78vh;
+    display: flex;
+    padding: 5px;
+}
+
+.content-postuler .content {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.content-postuler .content form {
+    width: 60%;
+    padding: 0rem 4rem;
+    margin: 0px 12px;
+}
+
+.form-dflexinput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputEmail {
+    width: 50%;
+}
+
+.input-cv {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.content-postuler .content form button {
+    background-color: #d09a00;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #d09a00;
+    width: auto;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.content-postuler .content form input {
+    border: 1px solid silver;
+}
+
+input:focus-visible {
+    border: 1px solid #d09a00 !important;
+}
+
+.content-postuler .content h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.content-postuler .content .main {
+    display: flex;
+}
+
+.content-postuler .content .offres-other {
+    width: 20%;
+}
+
+.content-postuler .create-cv {
+    width: 20%;
+}
+
+.content-postuler .create-cv .card {
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.content-postuler .create-cv .card p {
+    height: auto;
+}
+
+.content-postuler .create-cv .card button {
+    background-color: #d09a00;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #d09a00;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.content-postuler .create-cv .card .card-header {
+    background-color: #fff;
+}
+
+.offres-form {
+    margin-top: 15px;
+}
+
+.grilleOffres {
+    max-width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 450px);
+    justify-content: center;
+    grid-gap: 13px;
+    grid-column: 89px;
+}
+
+.grilleOffres .card {
+    height: auto;
+    width: 450px !important;
+    box-shadow: none;
+    border-radius: 0 !important;
+}
+
+.grilleOffres .card .card-body p {
+    height: auto;
+    background-color: #fff;
+}
+
+.grilleOffres .titre {
+    color: rgb(77, 77, 177);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.grilleOffres .categorie {
+    margin-top: 5px;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+.grilleOffres button {
+    padding: 4px;
+    margin-top: 5px;
+}
+
+.grilleOffres .footer {
+    display: flex;
+}
+
+.grilleOffres .footer .date {
+    flex: 1;
+    text-align: right;
+}
+
+@media (max-width: 950px) {
+    .content-postuler .content .main {
+        display: block !important;
+    }
+
+    .content-postuler .create-cv {
+        width: 100%;
+    }
+
+    .content-postuler form {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .content-postuler .content .offres-other {
+        width: 100%;
+    }
+
+    .content-postuler form .form-dflexinput {
+        display: block;
+        width: 100% !important;
+    }
+
+    .content-postuler form .form-dflexinput .inputEmail,
+    .input-cv {
+        width: 100% !important;
+    }
+
+    .input-cv {
+        margin-left: 0 !important;
+    }
+
+    .content-postuler form input {
+        width: 100% !important;
+    }
+
+    .grilleOffres {
+        max-width: 1400px;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100%);
+        justify-content: center;
+        grid-gap: 13px;
+        grid-column: 89px;
+    }
+
+    .grilleOffres .card {
+        height: auto;
+        width: 100% !important;
+        box-shadow: none;
+        border-radius: 0 !important;
+    }
+
+}
