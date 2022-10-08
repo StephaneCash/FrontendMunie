@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html {
@@ -157,8 +159,9 @@ textarea {
 }
 
 .card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-2px);
   cursor: pointer;
+  border: 2px solid #d09a00;
 }
 
 .card-header {
@@ -177,9 +180,8 @@ textarea {
   background-color: #efefef;
   height: 440px;
   transition: transform 0.4s;
-  box-shadow: 1px 1px 5px silver;
-  border: 1px solid silver;
-  border-radius: 5px;
+  border: 1px solid #ededed;
+  border-radius: 1px;
 }
 
 .card img {
@@ -219,7 +221,7 @@ textarea {
 .card-body p {
   padding: 10px;
   font-size: 15px;
-  border: 1px solid silver;
+  border: 1px solid #ededed;
   height: 140px;
 }
 

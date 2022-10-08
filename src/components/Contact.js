@@ -6,7 +6,7 @@ function Contact(props) {
         alert('Merci pour votre confiance')
     }
 
-    const style = { backgroundColor: '#444', color: "aliceblue", marginTop:'30px' }
+    const style = { backgroundColor: '#444', color: "aliceblue", marginTop: '30px', paddingBottom: '60px' }
     return (
         <section className="contact" id="contact" style={style}>
             <div className="max-width">

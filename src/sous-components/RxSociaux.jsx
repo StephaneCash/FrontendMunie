@@ -2,8 +2,7 @@ import React from 'react'
 
 function RxSociaux() {
     return (
-        <div className='content-rx'>
-            <h4 style={{ textAlign: "center", marginBottom: '21px' }}>Réseaux sociaux</h4>
+        <div className='content-rx'>    
             <div className="card">
                 <div className="card-header">
                     <i className='fa fa-facebook' style={{ color: 'blue' }}></i> Suivez-nous sur Facebook

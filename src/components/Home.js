@@ -5,6 +5,8 @@ import Main from './Main'
 import NavBar from './NavBar';
 import $ from "jquery"
 import Footer from './Footer';
+import Security from '../sous-components/Security';
+import Visionnaire from '../sous-components/Visionnaire';
 
 function Home() {
     $('.scroll-up-btn').click(function () {
@@ -21,6 +23,8 @@ function Home() {
             <NavBar />
             <Main />
             <About />
+            <Security />
+            <Visionnaire />
             <Contact />
             <Footer />
         </>

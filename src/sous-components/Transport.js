@@ -94,9 +94,9 @@ function Transport() {
                                 </div>
                             </div>
                             <div className='card'>
-                                <div className='card-header'>Location de motos par contrat</div>
+                                <div className='card-header'>Prêt de motos par contrat</div>
                                 <div className='card-body'>
-                                    <img src="./moto.jpg" width="100px" alt="picture-p" />
+                                    <img src="./moto.jpg" width="100px" alt="f-p" />
                                     <p>Le prix d'une moto est, en effet, relativement élevé, et nécessite
                                         une solution de financement adaptée. L'offre locative vous permet donc de profiter de votre propre deux-roues sans avoir à contracter un prêt. À noter que la souplesse de l'offre
                                         convient pour une conduite occasionnelle, régulière, voire quotidienne
@@ -117,8 +117,8 @@ function Transport() {
                                     </p>
                                 </div>
                                 <div className='card-footer'>
-                                    <NavLink to='/transport'>
-                                        <button type='button'>Voir plus</button>
+                                    <NavLink to='/commander-transport'>
+                                        <button type='button'>Voir plus <i className='fa fa-chevron-right'></i> </button>
                                     </NavLink>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@ function Transport() {
                             <div className='card'>
                                 <div className='card-header'>Formation</div>
                                 <div className='card-body'>
-                                    <img src="./formation1.gif" width="100px" alt='photo-moto' />
+                                    <img src="./formation1.gif" width="100px" alt='d-moto' />
                                     <p>Le prix d'une moto est, en effet, relativement élevé, et nécessite
                                         une solution de financement adaptée. L'offre locative vous permet donc de profiter de votre propre deux-roues sans avoir à contracter un prêt. À noter que la souplesse de l'offre
                                     </p>
